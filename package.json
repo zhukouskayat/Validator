@@ -1,0 +1,27 @@
+{
+  "name": "validator",
+  "version": "1.0.0",
+  "description": "Basic validator implementation",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhukouskayat/Validator.git"
+  },
+  "author": "Zhukouskaya Tatsiana",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zhukouskayat/Validator/issues"
+  },
+  "homepage": "https://github.com/zhukouskayat/Validator#readme",
+  "devDependencies": {
+    "eslint": "^7.11.0",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-config-prettier": "^6.12.0",
+    "eslint-plugin-import": "^2.22.1",
+    "prettier": "2.1.2"
+  }
+}
