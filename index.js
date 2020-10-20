@@ -3,10 +3,10 @@
 
 import validateObject from "./validation/mechanisms.js";
 
-import user from "./users/users.js";
-import userScheme from "./users/scheme.js"
+import user from "./models/users.js";
+import userScheme from "./schemes/userScheme.js"
 
-import dumpErrors from "./error output/errors.js";
+import dumpErrors from "./errors/errors.js";
 
 const result = validateObject(user, userScheme);
 
